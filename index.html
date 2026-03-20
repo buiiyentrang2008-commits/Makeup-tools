@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> POLYSHOP </title>
+    <style>
+	
+        body {
+               font-family: sans-serif;
+               margin: 0;
+               padding: 0;
+               background-color:#F5F3FF;
+               color:#1F2937;    
+		       min-height: 100vh;    
+		       display: flex    ;
+               flex-direction: column;
+             }
+        header {
+                background-color:#DDD6FE;
+                color:#1F2937;
+                padding: 10px;
+                text-align: center;
+			    border: 5px solid #E5E7EB;
+    			margin-bottom: 0px;
+	        	}
+	 	header h1 {
+		        margin-bottom: 0
+				  }
+		header p {
+		          margin-top: 0
+				     }
+    .search-box {
+                 display: flex;
+				       	 width: 100%;
+				      	 padding: 0 10px; 
+				      	 box-sizing: border-box;
+				        	}
+   .search-box input {
+                      flex: 1;
+						          padding: 10px;
+						          border: 1px solid #E5E7EB;
+                      border-radius: 8px 0 0 8px;
+						          }
+    .search-box button {
+                        padding: 10px 15px;
+                        border: none;
+                        background: #7C3AED;
+                        color: white;
+                        border-radius: 0 8px 8px 0;
+	                     	}
+		
+        nav {
+              background-color:#C4B5FD;
+              padding: 5px;
+    		    	display:flex;
+	    		    border-bottom: 2px solid #E5E7EB;
+		         	width: 100%;
+			      	justify-content: center;
+				      gap: 50px
+	            }
+        nav a {
+                color: #1F2937;
+                text-decoration: none;
+                font-weight: bold;
+                padding: 5px 20px;
+                margin: 0 10px;
+                display: inline-block;
+              }
+			  nav a:hover {
+                     background-color: #5B21B6;
+						         color:#FFFFFF;
+					        	 }
+      .container {
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: center;
+                  gap: 20px;
+                  padding: 20px;
+	              }
+	    .a1, .a2, .a3, .a4, .a5,
+      .a6, .a7, .a8, .a9 {
+                           background-color: #FFFFFF;
+                           border: 1px solid #E5E7EB;
+                           border-radius: 8px;
+                           width: 250px;
+                           padding: 15px;
+                           text-align: center;
+                           box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                         }
+      img { width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+          }
+		button {
+            background-color: #7C3AED;
+			     	color: #FFFFFF;
+			      }
+	  button:hover {background-color: #5B21B6}
+        footer {
+                background-color:#DDD6FE;
+		          	color: #1F2937;
+    			      text-align: center;
+	    		      border-top : 5px solid #E5E7EB;
+                bottom: 0;
+	    	       }
+    </style>
+</head>
+<body>
+  <header>
+         <h1> POLYSHOP </h1>
+		 <p> Trang thương mại điện tử chính hãng </p>
+  </header>
+  
+  <div class="search-box">
+    <input type="text" placeholder="Tìm sản phẩm...">
+      <button>🔍</button>
+  </div>
+
+  <nav>
+      <a href = "#"> Trang chủ </a>
+	    <a href = "#"> Danh mục </a>
+	    <a href = "#"> Sự kiện </a>
+    	<a href = "#"> Giỏ hàng </a>
+  </nav>
+
+  <main style="flex: 1;">
+    <div class="container">
+
+    <div class="a1">
+  	<a href="https://vn.shp.ee/vWLYbjs4">
+   		  <img src="BBIA.jpg" alt="Son BBIA">
+    		<h3>DÒNG SON BBIA </h3>
+ 		    <p class="giá tiền"> 131.200đ </p>
+     		<button>Thêm vào giỏ</button>
+		  	<button>Mua ngay </button>
+	 </a>
+	 </div>
+
+   <div class="a2">
+	 <a href="https://vn.shp.ee/iAtaL1vq">
+ 	 	    <img src="MENOW.jpg" alt="Phấn phủ MENOW">
+    	 	<h3> Phấn phủ đa sắc Menow </h3>
+	     	<p class="giá tiền"> 204.169đ</p>
+ 	     	<button>Thêm vào giỏ</button>
+	 	  	<button>Mua ngay </button>
+	 </a>
+	 </div>
+
+     <div class="a3">
+	   <a href="https://vn.shp.ee/zv3kFtWx">
+ 	     	<img src="LO.jpg" alt="Little ondine">
+ 	 	    <h3>Kem highlight/khối little ondine </h3>
+     	 	<p class="giá tiền"> 157.172đ</p>
+ 	 	    <button>Thêm vào giỏ</button>
+	 	  	<button>Mua ngay </button>
+	  </a>
+	  </div>
+
+      <div class="a4">
+	    <a href="https://vn.shp.ee/XpdhTWT7">
+        <img src="mooekiss.jpg" alt="Son mooekiss">
+        <h3>Son lì mooekiss </h3>
+        <p class="giá tiền"> 119.200đ</p>
+        <button>Thêm vào giỏ</button>
+	      <button>Mua ngay </button>
+	  </a>
+	  </div>
+
+	  <div class="a5">
+    <a href="https://vn.shp.ee/Lva1tRGZ">
+         <img src="peripera.webp" alt="Son peripera">
+         <h3>Son Tint Nước Peripera </h3>
+         <p class="giá tiền"> 154.000đ</p>
+         <button>Thêm vào giỏ</button>
+	       <button>Mua ngay </button>
+	   </a>
+	   </div>
+
+	   <div class="a6">
+     <a href="https://vn.shp.ee/ufjNVDDk">
+         <img src="mur.jpg" alt="Kem Má MURMURMUSE">
+         <h3>Kem Má Đám Mây MURMURMUSE </h3>
+         <p class="giá tiền"> 111.200đ</p>
+         <button>Thêm vào giỏ</button>
+	       <button>Mua ngay </button>
+	   </a>
+	   </div>
+
+	   <div class="a7">
+     <a href="https://vn.shp.ee/ui46g9eR">
+         <img src="cheeryep.png" alt="Bảng Phấn Mắt Cheeryep">
+         <h3>Bảng Phấn Mắt Cheeryep </h3>
+         <p class="giá tiền"> 360.220đ</p>
+         <button>Thêm vào giỏ</button>
+	       <button>Mua ngay </button>
+	   </a>
+     </div>
+
+	   <div class="a8">
+     <a href="https://vn.shp.ee/sUNneseh">
+         <img src="lion.png" alt="Phấn Bắt Sáng Highlight Lion">
+         <h3>Phấn Bắt Sáng Highlight Lion </h3>
+         <p class="giá tiền"> 129.734đ</p>
+         <button>Thêm vào giỏ</button>
+	       <button>Mua ngay </button>
+	   </a>
+	   </div>
+
+     <div class="a9">
+	   <a href="https://vn.shp.ee/Y1Z1WL3R">
+         <img src="fg.png" alt="Kem nâng tone body">
+         <h3>Kem nâng tone body </h3>
+         <p class="giá tiền"> 111.200đ</p>
+         <button>Thêm vào giỏ</button>
+	       <button>Mua ngay </button>
+	   </a>
+	   </div>
+    </div>
+  </main>
+  <footer>
+        <p>© 2008 Trang web Thương mại điện tử chính hãng.</p>
+        <p>Liên hệ: poly@2008.vn | Theo dõi chúng tôi tại Facebook</p>
+  </footer>
+</body>
+       </html>
